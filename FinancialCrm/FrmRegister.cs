@@ -67,5 +67,12 @@ namespace FinancialCrm
             frmLogin.Show();
             this.Hide();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            FrmLogin frmLogin = new FrmLogin();
+            frmLogin.Show();
+            this.Hide();
+        }
     }
 }
